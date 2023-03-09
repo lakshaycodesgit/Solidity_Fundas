@@ -13,7 +13,7 @@ contract StorageFactory {
     function sfStore(uint256 _simpleStorageIndex, uint256 _simplestorageNumber) public { //stores the addresses and the contracts
         //Address - the array takes track of it
         // ABI - Application binary interface , array comes automatically with ABI therefore ABI+Address always needed to interact
-
+        // therefore ABI + Address is always necessary to interact with any external contract.
         /* 
         SimpleStorage simpleStorage = simpleStorageArray[_simpleStorageIndex];
         simpleStorage.store(_simplestorageNumber); 
